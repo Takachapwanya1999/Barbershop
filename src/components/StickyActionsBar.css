@@ -1,0 +1,4 @@
+.sticky-actions{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:space-around;gap:8px;background:#111;color:#fff;padding:10px 8px;z-index:999;box-shadow:0 -4px 10px rgba(0,0,0,0.15)}
+.sticky-actions .action{display:flex;flex-direction:column;align-items:center;gap:4px;color:#fff;text-decoration:none;font-size:12px}
+.sticky-actions .action svg{font-size:18px}
+@media(min-width:768px){.sticky-actions{display:none}}
